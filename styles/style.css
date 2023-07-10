@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+    list-style: none;
+}
+/* navbar section star  */
+.navbar{
+    background-color: rgb(255, 246, 246);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.nav-menu-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-menu-list-item{
+    padding: 0 25px;
+}
+.navbar-title{
+    color: #DD52A4ff;
+    font-size: 25px;
+}
+/* header banner section start  */
+.header-banner{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 850px;
+    width: auto;
+    gap: 100px;
+}
+.header-banner-content{
+    padding-left: 10%;
+}
+.header-banner-title{
+    color: #272727;
+    font-size: 50px;
+    line-height: 60px;
+}
+.header-banner-description{
+    margin: 32px 0;
+}
+.header-banner-btn{
+    background-color: #DD52A4ff;
+    padding: 20px 45px;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.header-banner-image-section{
+    padding-right: 25px;
+}
+.header-banner-image{
+    height: 650px;
+    width: auto;
+    margin-top: 205px;
+    margin-right: 100px;
+}
