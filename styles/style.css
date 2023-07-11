@@ -338,6 +338,7 @@
     background-image: url('../assets/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
     height: 350px;
     width: auto;
     margin: 100px 10%;
