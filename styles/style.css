@@ -85,12 +85,12 @@
 }
 
 .feature-title,
-.top-sale-content-title {
+.top-sale-content-title,.instagram-content-title {
     font-size: 35px;
 }
 
 .feature-description,
-.top-sale-content-description {
+.top-sale-content-description,.instagram-content-description {
     margin-top: 24px;
     margin-bottom: 48px;
     padding: 0 25%;
@@ -175,30 +175,101 @@
 }
 
 /* offer banner section  */
-.offer-banner {
+.offer-banner,
+.video-banner-container {
     display: flex;
     background: rgba(229, 84, 115, 0.05);
-    justify-content: space-between;
+    justify-content: center;
     height: 620px;
     width: auto;
-    gap: 50px;
     align-items: center;
-    margin-top: 100px;
+    margin: 100px 0;
 }
-.offer-banner-content{
-    padding: 0 10%;
-    
+
+.offer-banner-content {
+    padding-left: 20%;
 }
-.offer-banner-content-title{
+
+.offer-banner-content-title {
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
-.offer-banner-btn{
+
+.offer-banner-btn {
     background-color: #DD52A4ff;
     padding: 15px 30px;
     border-style: none;
     color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.offer-banner-picture {
+    padding-right: 13%;
+}
+
+.offer-banner-picture img {
+    width: auto;
+    height: 350px;
+}
+
+.offer-banner-content-description {
+    padding-right: 75px;
+}
+/* instagram section  */
+.instagram {
+    text-align: center;
+}
+
+.instagram-container {
+    display: flex;
+    justify-content: space-around;
+}
+.instagram-item{
+
+}
+
+.instagram-item-img {
+    width: auto;
+    height:250px;
+    padding: 0 10px;
+}
+
+/* video banner section  */
+.video-banner-container {
+    gap: 100px;
+}
+
+.video-banner {
+    padding-left: 10%;
+}
+
+.video-banner-item {
+    height: 350px;
+    width: auto;
+    box-shadow: 10px 10px 25px gray;
+    border-radius: 25px;
+}
+
+.video-banner-content {
+    padding-right: 10%;
+}
+
+.video-banner-content-title {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.video-banner-btn {
+    background-color: white;
+    padding: 15px 30px;
+    border: 2px solid #DD52A4ff;
+    color: #DD52A4ff;
     font-size: 15px;
     font-weight: 700;
     border-radius: 8px;
